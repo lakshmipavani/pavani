@@ -38,6 +38,7 @@ enyo.kind({
     create: function() {
         this.inherited(arguments);
         this.$.basePanels.setIndex(0);
+        console.log('app created');
     },
 
     handlers: {
